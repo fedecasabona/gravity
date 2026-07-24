@@ -20,7 +20,7 @@ function App() {
       <div className="antigravity-stage">
         <div className="hero-title-wrap">
           <CircularText
-            text="DESIGN / MOTION * DESIGN / MOTION * "
+            text="DESIGN / MOTION / BRAND * DESIGN / MOTION / BRAND * "
             onHover="speedUp"
             spinDuration={20}
           />
