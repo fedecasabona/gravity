@@ -19,11 +19,18 @@ function App() {
     <div className="app">
       <div className="antigravity-stage">
         <div className="hero-title-wrap">
-          <CircularText
-            text="DESIGN / MOTION / BRAND * DESIGN / MOTION / BRAND * "
-            onHover="speedUp"
-            spinDuration={20}
-          />
+          <a
+            href="https://www.linkedin.com/in/federicocasabona/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Federico Casabona on LinkedIn"
+          >
+            <CircularText
+              text="DESIGN / MOTION / BRAND * DESIGN / MOTION / BRAND * "
+              onHover="speedUp"
+              spinDuration={20}
+            />
+          </a>
         </div>
         <Antigravity
           images={mediaItems}
